@@ -4012,12 +4012,42 @@ body.is-preload #sidebar nav ul li {
 /* About */
 
 #about {
-	background-attachment: fixed;
-	background-image: url("images/background.png");
-	background-position: top right;
-	background-repeat: no-repeat;
-	background-size: cover;
+    background-attachment: fixed;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Set the background to the video file */
+    background: url("videos/background.mp4") no-repeat center center fixed;
+    /* Set the video properties */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* Loop the video */
+    -webkit-animation: mymove 10s infinite; /* Safari 4+ */
+    -moz-animation: mymove 10s infinite; /* Fx 5+ */
+    -o-animation: mymove 10s infinite; /* Opera 12+ */
+    animation: mymove 10s infinite;
 }
+
+/* Define the animation */
+@-webkit-keyframes mymove {
+    from { background-position: 0 0; }
+    to { background-position: 100% 100%; }
+}
+@-moz-keyframes mymove {
+    from { background-position: 0 0; }
+    to { background-position: 100% 100%; }
+}
+@-o-keyframes mymove {
+    from { background-position: 0 0; }
+    to { background-position: 100% 100%; }
+}
+@keyframes mymove {
+    from { background-position: 0 0; }
+    to { background-position: 100% 100%; }
+}
+
 
 #about p {
 	font-size: 1.25em;
