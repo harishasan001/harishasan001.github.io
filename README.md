@@ -1,2 +1,2 @@
-# My Personal Website
-To view my website, click [here](https://www.harishasan.xyz)
+
+To view my portfolio website, click [here](https://www.harishasan.xyz) @ harishasan.xyz
