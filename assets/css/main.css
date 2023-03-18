@@ -3603,6 +3603,7 @@ body.is-preload .wrapper.fade>.inner {
 /* Wrapper (main) */
 
 #sidebar+#wrapper {
+	
 	margin-left: 18em;
 }
 
@@ -3673,6 +3674,9 @@ body.is-preload .wrapper.fade>.inner {
 	top: 0;
 	width: 18em;
 	z-index: 10000;
+	border-radius: 4px;
+	background: #62bad0;
+	box-shadow:  22px 22px 42px #62bad0, -22px -22px 42px #62bad0;
 }
 
 #sidebar>.inner {
@@ -4012,22 +4016,21 @@ body.is-preload #sidebar nav ul li {
 /* About */
 
 #about {
-    background-attachment: fixed;
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* Set the background to the video file */
-    background: url("videos/background.mp4") no-repeat center center fixed;
-    /* Set the video properties */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    /* Loop the video */
-    -webkit-animation: mymove 10s infinite; /* Safari 4+ */
-    -moz-animation: mymove 10s infinite; /* Fx 5+ */
-    -o-animation: mymove 10s infinite; /* Opera 12+ */
-    animation: mymove 10s infinite;
+
+	background: none;
+    
+}
+
+#background-video {
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
 }
 
 /* Define the animation */
