@@ -3402,10 +3402,7 @@ table.alt tfoot {
 
 }
 
-.wrapper.style3 {
-	background-color: #00000075;
-	
-}
+
 
 .wrapper.fullscreen {
 	display: -moz-flex;
@@ -4206,6 +4203,27 @@ a.button {
 	margin-top: 10px;
 }
 
-.skills li {
-	font-size: 20px;
+#skills {
+	background: none;
+}
+
+#skills .inner .features{
+	background: none;
+	border: none;
+}
+
+#skills .inner .features section{
+	background: none;
+	border: none;
+}
+
+#skills ul{
+
+	display: flex;
+	flex-direction: column;
+	
+}
+
+#skills li {
+	font-size: 1rem;
 }
