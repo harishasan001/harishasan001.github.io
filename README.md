@@ -1,4 +1,3 @@
+# Personal Portfolio Website
 
-To view my portfolio website, click [here](https://www.harishasan.xyz) @ harishasan.xyz
- 
-testing123
+Visit [www.harishasan.xyz](www.harishasan.xyz)
